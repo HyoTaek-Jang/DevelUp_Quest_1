@@ -16,3 +16,18 @@
 - 별 야경 어케 할지?
 - 깃, 구름 깃 연동 공부
 ---
+# 2일차 (10/17)
+- 첫 페이지 구성을 아예 바꿧다! 컨셉도 정하고 대충 시안도 새롭게 뽑았다
+- 다양한 트렌지션이랑 애니메이션을 알아야 더 멋진 사이트가 될듯 http://rwdb.kr/interestedeffects/ 참조 ㄱ
+- 내가 원하는 일러스트를 못만드는 게 아쉽다 놑북이랑 타블렛 있으면 어느정도 편할텐데 사지방이라..
+- 종찬님이 알려주셨다. 내가 원하는 것은 fullpage.js!!! 그래 이거야!!
+---
+### 배운 거
+- fullpage.js [링크] https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs
+---
+### 할 거
+- 트렌지션 애니메이션 더 찾기
+- 호버, 네이게이션 등등 찾기
+- 전체화면 어케하냐고오오옥
+- 풀페이지 링크에서 읽기
+- https://www.youtube.com/watch?v=pClOy5lA7rU&t=486s 강의 영상 [fullpage.js]
