@@ -1,68 +1,103 @@
+/*시민과 뭐시기 폰트 다운받아와서 쓰려는데 안되넹..*/
+@font-face{
+    font-family: 'SAM';
+    src: url(./SAM.ttf) format('truetype');
+}
+
 html,body{
     height: 100%;
 	width : 100%
 }
-.container{
-    height: 100%;
-}
-.page{
-    /*임시로 화면 꽉채우는 법을 몰라서 걍 크게 픽셀넣음*/
-    height: 100%;
-	width: 100%;
 
-    background-color: rgb(61, 61, 61);
-
-    font-family: 'Nanum Pen Script', cursive;
-	
-	overflow : hidden;
-
-    position: relative;
+/*네이게이션 동그라미 색상 바꾸기*/
+#fp-nav ul li a span{
+    background-color: rgb(255, 255, 255);
 }
 
-.section3{
+
+/*page_1 start*/
+.page_1{
+    overflow : hidden;
+}
+
+.seperate_3{
 	width : 33.333333%;
 	height : 100%;
 	float : left;
 }
 
 .morning{
-	background-color : red;
+    background: #8cb8e7;
+    background: -moz-linear-gradient(top,  #8cb8e7 0%, #dcb2ce 33%, #b69cd3 66%, #e3dae5 100%);
+    background: -webkit-linear-gradient(top,  #8cb8e7 0%,#dcb2ce 33%,#b69cd3 66%,#e3dae5 100%);
+    background: linear-gradient(to bottom,  #8cb8e7 0%,#dcb2ce 33%,#b69cd3 66%,#e3dae5 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cb8e7', endColorstr='#e3dae5',GradientType=0 ); 
+
 }
 
 .afternoon{
-	background-color : orange;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#85b4ea+0,aecee5+33,8ab6f7+66,aed4f2+100 */
+    background: #85b4ea; /* Old browsers */
+    background: -moz-linear-gradient(top,  #85b4ea 0%, #aecee5 33%, #8ab6f7 66%, #aed4f2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #85b4ea 0%,#aecee5 33%,#8ab6f7 66%,#aed4f2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #85b4ea 0%,#aecee5 33%,#8ab6f7 66%,#aed4f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85b4ea', endColorstr='#aed4f2',GradientType=0 ); /* IE6-9 */
+
 }
 
 .night{
-	background-color : blue;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#02101e+0,662430+78,ad613a+100 */
+    background: #02101e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #02101e 15%, #662430 78%, #ad613a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #02101e 15%,#662430 78%,#ad613a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #02101e 15%,#662430 78%,#ad613a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02101e', endColorstr='#ad613a',GradientType=0 ); /* IE6-9 */
+
 }
 
-.title{
+.titile{
+    position: relative;
+}
+
+.maintitle{
+    font-family: 'Quicksand', sans-serif;
+    
+    /*글자 정가운데 배치*/
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-
     color: rgb(252, 240, 222);
-    font-size: 8em;
+    font-size: 5em;
     vertical-align: middle;
-    font-weight: 100;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    padding: 0.3em;
+    border: beige 0.2em solid;
+
+    text-shadow: 0px 0.03em #cde0f881, 0.05em 0.05em 5px #b3d0fc70;
+
 }
 
 .subtitle{
+    font-family: 'SAM','Nanum Pen Script', serif;
     position: absolute;
-    top: 50%;
-    left: 70%;
+    bottom: 25%;
+    left: 50%;
     transform: translate(-50%,-50%);
-
-
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-size: 4em;
     font-weight: 100;
     color: rgb(252, 240, 222);
+    padding: 0.2em;
+    border-bottom: beige 0.1em solid;
 }
+/*page_1 end*/
 
-.asdf{
-    background-color: aquamarine;
+/*page_2 start*/
+
+.page_2{
+    background-color: #d2bbec;
 }
