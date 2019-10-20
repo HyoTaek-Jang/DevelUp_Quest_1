@@ -94,7 +94,7 @@ html,body{
 
 .sidetitle{
     font-family: 'SAM','Nanum Pen Script', serif;
-    position: absolute;;
+    position: absolute;
     writing-mode: vertical-lr;
     font-size: 3.0em;
     font-weight: 100;
@@ -124,37 +124,89 @@ html,body{
 
 .page_2{
     background-color: #d4c2e9;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     
 }
 
-.sec_title{
-    position: absolute;
-    width: 600px;
-    left: 2em;
-    top: 2em;
-    
+.header{
+
 }
 
-.jog{
-    margin-right: 15px;
-    width: 100px;
-    border-radius: 50%;
+
+.header .sidetitle{
+    position: static;
+    float: left;
+    margin: 3%;
+    margin-right: 6%;
+
+}
+
+.bordertitle{
     border: beige 5px solid;
+    padding: 10px;
 }
 
-.sec_title>.subtitle{
-    display: inline-block;
+.contenttitle{
+    top: 5%;
+    left: 3%;
 }
 
-.page_2 .l_grid_content{
-    margin: 2em;
+.l_grid_content{
+    margin: 3% auto;
+    float: left;
+    width: 85%;
+    height: 85%;
 }
 
-.l_grid h1{
-    background-color: blue;
+.bg_img{
+    position: absolute;
+    width: 300px;
+    left: 1%;
+    bottom: 5%;
 }
 
-.page_2 .l_row img{
+.l_row img{
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
 
+.content{
+    margin: 0 auto;
+    width: 450px;
+    height: 1px;
+    color: #8cb8e7;
+    transition: all 0.5s;
+}
+
+.content h1{
+    font-family: 'SAM','Nanum Pen Script', serif;
+    font-size: 3.0em;
+    font-weight: 100;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px beige solid;
+}
+
+.content p{
+    padding: 5px;
+    font-family: 'SAM','Nanum Pen Script', serif;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.l_row img:hover + .content{
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+    background-color: #8cb8e7;
+    color: #e3dae5;
+    border-radius: 0 0 10px 10px;
+}
+
+.l_row img:hover{
+    border-radius: 10px 10px 0 0 ;
 }
