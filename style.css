@@ -123,7 +123,7 @@ html,body{
 /*page_2 start*/
 
 .page_2{
-    background-color: #d4c2e9;
+    background-color: #c5b5d8;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -144,7 +144,7 @@ html,body{
 }
 
 .bordertitle{
-    border: beige 5px solid;
+    border: rgb(243, 243, 238) 5px solid;
     padding: 10px;
 }
 
@@ -153,11 +153,12 @@ html,body{
     left: 3%;
 }
 
-.l_grid_content{
+.contentbox{
     margin: 3% auto;
     float: left;
     width: 85%;
     height: 85%;
+    border: #662430 1px solid;
 }
 
 .bg_img{
@@ -176,9 +177,9 @@ html,body{
 .content{
     margin: 0 auto;
     width: 450px;
-    height: 1px;
-    color: #8cb8e7;
+    height: 79px;
     transition: all 0.5s;
+    color: #c5b5d8;
 }
 
 .content h1{
@@ -189,6 +190,7 @@ html,body{
     text-align: center;
     padding: 10px 0;
     border-bottom: 3px beige solid;
+    color: #e3dae5;
 }
 
 .content p{
@@ -196,9 +198,10 @@ html,body{
     font-family: 'SAM','Nanum Pen Script', serif;
     font-size: 1.5em;
     font-weight: 100;
+    
 }
 
-.l_row img:hover + .content{
+.l_row .l_grid img:hover + .content{
     margin: 0 auto;
     width: 450px;
     height: 500px;
@@ -209,4 +212,110 @@ html,body{
 
 .l_row img:hover{
     border-radius: 10px 10px 0 0 ;
+}
+
+/*page2 end*/
+/*page3 start*/
+
+.page_3{
+    background-color: #a1bcd3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.instabox{
+    background-color: rgb(252, 244, 244);
+    width: 355px;
+    height: 515px;
+    overflow: hidden;
+}
+
+.instatop{
+    overflow: hidden;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.instatop img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.instatop .instaid{
+    color: rgb(36, 34, 34);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 15px;
+    float: left;
+}
+
+.dotdot{
+    color: rgb(36, 34, 34);
+    font-size: 25px;
+    line-height: 30px;
+    height: 30px;
+    float: right;
+    
+}
+
+.instaimg{
+
+}
+
+.instaimg img{
+    display: block;
+    margin: 0 auto;
+    width: 315px;
+    height: 315px;
+}
+
+.instatapbar{
+    width: 315px;
+    height: 25px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.instatapbar img{
+    height: 25px;
+}
+
+.instatapbar .navdot{
+   height: 22px;
+   line-height: 25px;
+}
+
+.save{
+    float: right;
+}
+
+.instacontent{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    width: 315px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.views{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secprofile{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.realcontent p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size : 12.5px;
+    display: inline;
+
 }
