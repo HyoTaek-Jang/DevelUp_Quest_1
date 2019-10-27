@@ -158,7 +158,6 @@ html,body{
     float: left;
     width: 85%;
     height: 85%;
-    border: #662430 1px solid;
 }
 
 .bg_img{
@@ -194,11 +193,12 @@ html,body{
 }
 
 .content p{
-    padding: 5px;
+    padding: 25px;
     font-family: 'SAM','Nanum Pen Script', serif;
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-weight: 100;
-    
+    text-align: center;
+    word-break:keep-all
 }
 
 .l_row .l_grid img:hover + .content{
@@ -214,6 +214,7 @@ html,body{
     border-radius: 10px 10px 0 0 ;
 }
 
+
 /*page2 end*/
 /*page3 start*/
 
@@ -223,9 +224,14 @@ html,body{
     height: 100%;
     overflow: hidden;
 }
+.page_3 .contentbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .instabox{
-    background-color: rgb(252, 244, 244);
+    background-color: rgb(255, 255, 255);
     width: 355px;
     height: 515px;
     overflow: hidden;
@@ -317,5 +323,5 @@ html,body{
     font-family: 'Nanum Gothic', sans-serif;
     font-size : 12.5px;
     display: inline;
-
+    word-break:keep-all
 }
