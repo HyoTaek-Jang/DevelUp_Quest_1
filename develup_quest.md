@@ -85,6 +85,8 @@ https://heropy.blog/2018/11/24/css-flexible-box/
 제가 인스타박스에 올렸을때 나머지 모두가 선택 되게요..?
 - hover 시 선택한 것과 선택한 하위 요소를 제외한 나머지의 opacity를 낮출 땐 어떻게 선택자를 만져야 하나요?
 만약 위 코드에서 제가 인스타 박스를 골랐다면 그것을 제외한 모든 것의 오파시티를 낮추려고요!
+- 답변 : http://jsfiddle.net/ELA8b/1/   https://stackoverflow.com/a/26527499
+- 답변 : 
 ### 배우고 싶은 거
  - https://ldrerin.tistory.com/397
 애니메이셔어어언
