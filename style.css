@@ -235,6 +235,12 @@ html,body{
     width: 355px;
     height: 515px;
     overflow: hidden;
+    opacity : 0.5;
+    transition : all 0.5s;
+}
+
+.instabox:hover{
+    opacity:1;
 }
 
 .instatop{
